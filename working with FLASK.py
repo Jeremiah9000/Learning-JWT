@@ -1,6 +1,5 @@
 import flask
 
-
 APP = flask.Flask(__name__)
 
 
@@ -10,5 +9,5 @@ def index():
 
 
 if __name__ == '__main__':
-    APP.debug=True
+    APP.debug = True
     APP.run()
